@@ -10,7 +10,7 @@ verbs = ['drinking', 'sipping', 'consuming', 'grinding']
 adverbs = ['Nearly ', 'Almost ', 'Firmly ', 'Truthfully ', 'Quickly ', 'Wickedly ', 'Brutally ', 'Cheerfully ']
 curse = ['Damn! ', 'Mmmh! ', 'MMMMMMMMMMH! ', 'About time! ', 'Finally! ']
 tod = [' the morning.', ' the afternoon.', ' the evening.', ' the apocalypse.', ' the storm.', ' the Rapture.', ' the end of Days.']
-verbs2 = ['awaiting', 'looking forward to']
+verbs2 = ['awaiting', 'looking forward to', 'anticipating', 'preparing for']
 coffee = [' #blackgold, ', ' #coffee again, ', ' #techfuel, ', ' #ACupOfJoe, ', ' #C8H10N4O2, ', ' #covfefe, ', ' #mormoncrack, ', ' #mud, ', ' #coffay, ']
 
 tweet_curse = random.choice(curse)
