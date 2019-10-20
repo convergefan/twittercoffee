@@ -1,34 +1,34 @@
-# Twitter bot that talks randomly about coffee.
-# v0.2
+#  Twitter bot that talks randomly about coffee.
+#  v0.2
 
 import random
 import tweepy
 
-# Wordlists to generate random-ish sentences
+#  Wordlists to generate random-ish sentences
 
-verbs = ['drinking', 'sipping', 'consuming', 'grinding']
-adverbs = ['Nearly ', 'Almost ', 'Firmly ', 'Truthfully ', 'Quickly ', 'Wickedly ', 'Brutally ', 'Cheerfully ']
 curse = ['Damn! ', 'Mmmh! ', 'MMMMMMMMMMH! ', 'About time! ', 'Finally! ']
-tod = [' the morning.', ' the afternoon.', ' the evening.', ' the apocalypse.', ' the storm.', ' the Rapture.', ' the end of Days.']
-verbs2 = ['awaiting', 'looking forward to', 'anticipating', 'preparing for']
+adverbs = ['Nearly ', 'Almost ', 'Firmly ', 'Truthfully ', 'Quickly ', 'Wickedly ', 'Brutally ', 'Cheerfully ']
+verbs = ['drinking', 'sipping', 'consuming', 'grinding']
 coffee = [' #blackgold, ', ' #coffee again, ', ' #techfuel, ', ' #ACupOfJoe, ', ' #C8H10N4O2, ', ' #covfefe, ', ' #mormoncrack, ', ' #mud, ', ' #coffay, ']
+verbs2 = ['awaiting', 'looking forward to', 'anticipating', 'preparing for']
+nouns = [' the morning.', ' the afternoon.', ' the evening.', ' the apocalypse.', ' the storm.', ' the Rapture.', ' the end of Days.']
 
 tweet_curse = random.choice(curse)
 tweet_verbs = random.choice(verbs)
 tweet_adverbs = random.choice(adverbs)
-tweet_tod = random.choice(tod)
+tweet_nouns = random.choice(nouns)
 tweet_verbs2 = random.choice(verbs2)
 tweet_coffee = random.choice(coffee)
 
-tweet_sentence = tweet_curse + tweet_adverbs + tweet_verbs + tweet_coffee + tweet_verbs2 + tweet_tod  # Combining them all to form an actual sentence 
+tweet_sentence = tweet_curse + tweet_adverbs + tweet_verbs + tweet_coffee + tweet_verbs2 + tweet_nouns  # Combining them all to form an actual sentence 
 
 print(tweet_sentence)
 
 
-# Credentials - https://tweepy.readthedocs.io/en/v3.5.0/getting_started.html
+#  Credentials - https://tweepy.readthedocs.io/en/v3.5.0/getting_started.html
 
 
-def main():     # Template created by https://twitter.com/mattccrampton
+def main():  # Template created by https://twitter.com/mattccrampton
     twitter_auth_keys = {
 
         "consumer_key": "xxx",
