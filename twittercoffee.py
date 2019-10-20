@@ -11,7 +11,7 @@ adverbs = ['Nearly ', 'Almost ', 'Firmly ', 'Truthfully ', 'Quickly ', 'Wickedly
 curse = ['Damn! ', 'Mmmh! ', 'MMMMMMMMMMH! ', 'About time! ', 'Finally! ']
 tod = [' the morning.', ' the afternoon.', ' the evening.', ' the apocalypse.', ' the storm.', ' the Rapture.', ' the end of Days.']
 verbs2 = ['awaiting', 'looking forward to']
-coffee = [' #blackgold, ', ' #coffee again, ', ' #techfuel, ', ' #ACupOfJoe, ', ' #C8H10N4O2, ']
+coffee = [' #blackgold, ', ' #coffee again, ', ' #techfuel, ', ' #ACupOfJoe, ', ' #C8H10N4O2, ', ' #covfefe, ', ' #mormon crack ', ' #mud ', ' #coffay ']
 
 tweet_curse = random.choice(curse)
 tweet_verbs = random.choice(verbs)
