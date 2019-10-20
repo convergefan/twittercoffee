@@ -1,5 +1,5 @@
 # Twitter bot that talks randomly about coffee.
-# v0.1
+# v0.2
 
 import random
 import tweepy
