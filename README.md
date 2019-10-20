@@ -2,6 +2,8 @@
 
 twittercoffee is made to experiment with interacting with an API. Currently, the project is in an early version and it will most likely stay that way.
 
+A preview can be seen in action [here.](https://twitter.com/nickdftw)
+
 # Prerequisites
 
 $ pip install tweepy
