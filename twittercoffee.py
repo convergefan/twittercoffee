@@ -1,17 +1,17 @@
-#  Twitter bot that talks randomly about coffee.
-#  v0.2
+# Twitter bot that talks randomly about coffee.
+# v0.3 - added more options for the bot to output to Twitter
 
 import random
 import tweepy
 
-#  Wordlists to generate random-ish sentences
+# Wordlists to generate random-ish sentences
 
-curse = ['Damn! ', 'Mmmh! ', 'MMMMMMMMMMH! ', 'About time! ', 'Finally! ']
-adverbs = ['Nearly ', 'Almost ', 'Firmly ', 'Truthfully ', 'Quickly ', 'Wickedly ', 'Brutally ', 'Cheerfully ']
-verbs = ['drinking', 'sipping', 'consuming', 'grinding']
-coffee = [' #blackgold, ', ' #coffee again, ', ' #techfuel, ', ' #ACupOfJoe, ', ' #C8H10N4O2, ', ' #covfefe, ', ' #mormoncrack, ', ' #mud, ', ' #coffay, ']
-verbs2 = ['awaiting', 'looking forward to', 'anticipating', 'preparing for']
-nouns = [' the morning.', ' the afternoon.', ' the evening.', ' the apocalypse.', ' the storm.', ' the Rapture.', ' the end of Days.']
+curse = ['Damn! ', 'Mmmh! ', 'MMMMMMMMMMH! ', 'About time! ', 'Finally! ', '#Captainslog: ', '#Captainslog, supplemental: ', 'At long last.. ', 'The wait is over.. ']
+adverbs = ['Nearly ', 'Almost ', 'Firmly ', 'Truthfully ', 'Quickly ', 'Wickedly ', 'Brutally ', 'Cheerfully ', 'Rapidly ', 'Diligently ', 'Gently ']
+verbs = ['drinking', 'sipping', 'consuming', 'grinding', 'guzzling', 'gulping', 'slurping', 'quaffing']
+coffee = [' #blackgold, ', ' #coffee again, ', ' #techfuel, ', ' #ACupOfJoe, ', ' #C8H10N4O2, ', ' #covfefe, ', ' #mormoncrack, ', ' #mud, ', ' #coffay, ', ' #java, ']
+verbs2 = ['awaiting', 'looking forward to', 'anticipating', 'preparing for', 'expecting']
+nouns = [' the morning', ' the afternoon', ' the evening', ' the apocalypse', ' the storm', ' the Rapture', ' the end of Days', ' the inevitable #Borg invasion', ' more caffeine', ' dealings with #Karen', ' a Star Trek marathon']
 
 tweet_curse = random.choice(curse)
 tweet_verbs = random.choice(verbs)
@@ -20,7 +20,7 @@ tweet_nouns = random.choice(nouns)
 tweet_verbs2 = random.choice(verbs2)
 tweet_coffee = random.choice(coffee)
 
-tweet_sentence = tweet_curse + tweet_adverbs + tweet_verbs + tweet_coffee + tweet_verbs2 + tweet_nouns  # Combining them all to form an actual sentence 
+tweet_sentence = tweet_curse + tweet_adverbs + tweet_verbs + tweet_coffee + tweet_verbs2 + tweet_nouns  # Combining them all to form an actual sentence
 
 print(tweet_sentence)
 
